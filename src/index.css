@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:rgb(91, 141, 206);
+  height: 100vh;
+}
+
+li{
+  list-style-type: none;
+}
+
+.container{
+  width: 50%;
+  /* margin:10% 0 0 70%; */
+  left: 50%;
+  top: 10%;
+  position: absolute;
+  background: rgb(37, 74, 196);
+  min-width: 450px;
+  min-height: 100px;
+  border-radius: 5px;
+  transform: translate(-50%, 50%);
+}
+
+.header-todo{
+  text-align: center;
+  color: darkkhaki;
+  margin-top: 10px;
+}
+
+.todo-form{
+  margin: 5px;
+  margin-left: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-input{
+  margin: 0;
+  padding: 10px;
+  width: 50%;
+  border-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-size: 15px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+}
+
+.todo-btn{
+  margin-right: 0;
+  padding: 10px;
+  border: none;
+  font-size: 15px;
+  width: 50px;
+  cursor: pointer;
+  background-color: white;
+  color: rgb(91, 141, 206);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.todo-btn:hover{
+  background-color: beige;
+}
+
+
+.todo-select{
+  margin-left: 20px;
+}
+
+.todo-options{
+  padding: 10px;
+  outline: none;
+  border: none;
+  background: beige;
+  font-size: 15px;
+  width: 70%;
+  border-radius: 5px;
+}
+
+.todo-list{
+  margin: 15px;
+  padding: 30px 20px;
+  
+}
+
+.todo-list span{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(49, 175, 184);
+  border-radius: 5px;
+  margin-top: 10px;
+  
+}
+
+.todo-items{
+  margin: 5px;
+  font-size: 20px;
+  color:rgb(185, 245, 245);
+}
+
+.todo-trash{
+  padding: 5px;
+  border: none;
+  background-color: crimson;
+  border-radius: 5px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.todo-check{
+  padding: 5px;
+  border: none;
+  background-color: greenyellow;
+  border-radius: 5px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.completed{
+  text-decoration: line-through;
+  opacity: 0.5;
+}
